@@ -38,7 +38,9 @@ function mpc_build()
   local mpc_src_folder_name="mpc-${mpc_version}"
 
   local mpc_archive="${mpc_src_folder_name}.tar.gz"
-  local mpc_url="ftp://ftp.gnu.org/gnu/mpc/${mpc_archive}"
+
+  # https://ftp.gnu.org/gnu/mpc/mpc-1.3.1.tar.gz
+  local mpc_url="https://ftp.gnu.org/gnu/mpc/${mpc_archive}"
   if [[ ${mpc_version} =~ 0[.].* ]]
   then
     mpc_url="https://www.multiprecision.org/downloads/${mpc_archive}"
