@@ -1,5 +1,5 @@
 {
-  "name": "@xpack-dev-tools/xbb-helper",
+  "name": "@duanlangtaosha/xbb-helper",
   "version": "2.0.9",
   "description": "A source xPack with scripts and other files to support XBB builds",
   "main": "",
